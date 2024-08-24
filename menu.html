@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body>
+  <!-- navbar section  -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">The Taboo Room</a>
+      <!-- this is the hamburger button for when the navbar collapses -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"  href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+          </li>
+        </ul>
+        <!-- this is the search bar -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+      </div>
+
+    </div>
+
+  </nav>
+  <!-- end of navbar section -->
+  <div class="text-center">
+    <img class="img-fluid" src="images/MENU.png" alt="A cocktail on a table with the words 'The Taboo Room' on either side">
+  </div>
+<!-- table, hoverable -->
+<div class="container">
+  <table class="table table-hover p-5 m-5">
+    <thead>
+        <tr>
+          <th scope="col">Drink</th>
+          <th scope="col">Spirit</th>
+          <th scope="col">Creator</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>For Pete's Sake</td>
+          <td>Pisco</td>
+          <td>Martin Cate</td>
+        </tr>
+        <tr>
+          <td>Three Dots and a Dash</td>
+          <td>Martinique Rhum</td>
+          <td>Don the Beachcomber</td>
+        </tr>
+        <tr>
+          <td>Port Light</td>
+          <td>Bourbon</td>
+          <td>Trader Vic</td>
+        </tr>
+        <tr>
+            <td>Delfino Plaza</td>
+            <td>Rum & Pisco</td>
+            <td>J10</td>
+        </tr>
+        <tr>
+            <td>Under My Rumberella</td>
+            <td>Rum</td>
+            <td>Eric Vona</td>
+        </tr>
+      </tbody>
+  </table>
+</div>
+<!-- footer -->
+<footer>
+    <div class="text-center pt-3 pb-3">
+        <h5>The Taboo Room | 2024</h6>
+    </div>
+</footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <!-- Create a new website using HTML and Bootstrap. The website must include the following:
+        At least 2 pages.
+        A Bootstrap navbar, table, and form.
+        Bootstrap grid used throughout to format elements
+        Elements should stack vertically when the window is small
+    -->
+</head>
+<body>
+    <!-- navbar section  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">The Taboo Room</a>
+          <!-- this is the hamburger button for when the navbar collapses -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+            </ul>
+            <!-- this is the search bar -->
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+          </div>
+
+        </div>
+
+      </nav>
+      <!-- end of navbar section -->
+
+      <!-- Hero. Troubleshooting: Unable to get the hero to fill the screen, but I figured out how to center it. I've tried justifying and aligning content, setting the height to 100, classes such as mx-auto and img-fluid.-->
+      <div class="text-center">
+        <img class="img-fluid" src="images/taboo-hero (1920 x 350 px).png" alt="A cocktail on a table with the words 'The Taboo Room' on either side">
+      </div>
+
+      <!-- intro text -->
+
+    <h1 class="text-center m-3 p-3">Come for the Cocktails, Stay for the Experience</h1>
+        <p class="text-center m-3 fs-5 p-3">"Taboo" comes from "tapu," the Polynesian word for sacred or forbidden. Here at The Taboo Room, indulge in the forbidden.</p>
+        
+
+<!-- responsive grid columns and cards -->
+     <div class="container">
+        <div class="row row-cols-1 row-cols-lg-3 g-5">
+            <div class="col-sm">
+                <div class="card shadow-lg">
+                    <img src="images/IMG_2725.WEBP" class="card-img-top" alt="A green cocktail in a coup glass, garnished with passion fruit">
+                    <div class="card-body">
+                      <p class="card-text">Enjoy well-balanced cocktails with quality spirits and tiki spices.</p>
+                    </div>
+                  </div>
+              </div>
+          <div class="col-sm">
+            <div class="card shadow-lg">
+                <img src="images/IMG_2724.WEBP" class="card-img-top" alt="A yellow cocktail in a wine glass, garnished with passion fruit">
+                <div class="card-body">
+                  <p class="card-text">Our drinks are always garnished with a tropical flair.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card shadow-lg">
+                <img src="images/IMG_2720.WEBP" class="card-img-top" alt="A cocktail served in a double rocks glass">
+                <div class="card-body">
+                  <p class="card-text">Feel your worries melt away in our tropical atmosphere.</p>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div class="container">
+
+<!-- contact form. Set columns md 6 so they would stack when the screen got smaller -->
+    <h1 class="text-center mt-5 p-5">Contact Us</h1>
+    <div class="container">
+        <form class="row g-3 mb-5 ms-5 me-5pt-5">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+                <div class="col-12">
+                    <input type="text" class="form-control" placeholder="Email" aria-label="inputEmail4">
+                </div>
+                <div class="col-12">
+                    <input type="text" class="form-control" placeholder="Phone Number" aria-label="Phone">
+                </div>
+            </div>
+            <div>
+                
+                <div class="col-12">
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+<!-- footer -->
+    <footer>
+        <div class="text-center pt-3 pb-3">
+            <h5>The Taboo Room | 2024</h6>
+        </div>
+    </footer>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>
